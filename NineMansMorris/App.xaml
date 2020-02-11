@@ -8,6 +8,8 @@
             <BitmapImage x:Key="MainMenu" UriSource="img\MainMenu.png"/>
             <BitmapImage x:Key="Board" UriSource="img\Board.png"/>
             <BitmapImage x:Key="Background" UriSource="img\GameUI.png"/>
+            <BitmapImage x:Key="BlackChip" UriSource="img\BlackChip.png"/>
+            <BitmapImage x:Key="WhiteChip" UriSource="img\WhiteChip.png"/>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

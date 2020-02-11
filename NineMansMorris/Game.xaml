@@ -16,7 +16,7 @@
             <ColumnDefinition Width="396*"/>
             <ColumnDefinition Width="396*"/>
         </Grid.ColumnDefinitions>
-        <Image HorizontalAlignment="Left" Height="730" Margin="10,0,-443,-36" VerticalAlignment="Top" Width="1545" Source="{StaticResource Background}" Grid.ColumnSpan="2"/>
+        <Image x:Name="Board" HorizontalAlignment="Left" Height="730" Margin="10,0,-443,-36" VerticalAlignment="Top" Width="1545" Source="{StaticResource Background}" Grid.ColumnSpan="2"/>
         <Rectangle Fill="Transparent" HorizontalAlignment="Left" Height="689" Stroke="Black" StrokeThickness="14" VerticalAlignment="Top" Width="1106" Grid.ColumnSpan="2"/>
         <Image HorizontalAlignment="Left" Height="700" Margin="201,0,-754,0" VerticalAlignment="Top" Width="1664" Source="{StaticResource Board}" Grid.ColumnSpan="2"/>
         <Rectangle Fill="#FF171212" HorizontalAlignment="Left" Height="88" Margin="436,188,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="5" RenderTransformOrigin="0.5,0.5">
@@ -121,17 +121,36 @@
         <Ellipse Fill="White" HorizontalAlignment="Left" Height="32" Margin="141,490,0,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top" Width="32" Grid.Column="1"/>
         <Ellipse Fill="White" HorizontalAlignment="Left" Height="32" Margin="537,490,0,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top" Width="32" Grid.ColumnSpan="2"/>
         <Ellipse Fill="White" HorizontalAlignment="Left" Height="32" Margin="301,93,0,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top" Width="32"/>
-        <Ellipse Fill="White" HorizontalAlignment="Left" Height="32" Margin="220,93,0,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top" Width="32" Grid.Column="1"/>
+        <Ellipse Fill="White" HorizontalAlignment="Left" Height="32" Margin="222,93,0,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top" Width="32" Grid.Column="1"/>
         <Ellipse Fill="White" HorizontalAlignment="Left" Height="32" Margin="539,93,0,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top" Width="32" Grid.ColumnSpan="2"/>
         <Ellipse Fill="White" HorizontalAlignment="Left" Height="32" Margin="537,570,0,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top" Width="32" Grid.ColumnSpan="2"/>
         <Ellipse Fill="White" Height="32" Margin="301,570,223,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top"/>
         <Ellipse Fill="White" HorizontalAlignment="Left" Height="32" Margin="220,570,0,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top" Width="32" Grid.Column="1"/>
-        <Button x:Name="A_One" Background="Transparent" HorizontalAlignment="Left" Margin="287,81,0,0" VerticalAlignment="Top" Width="60" Height="60"/>
-        <Button x:Name="A_Four" Background="Transparent" HorizontalAlignment="Left" Margin="525,81,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.ColumnSpan="2"/>
-        <Button x:Name="A_Seven" Background="Transparent" HorizontalAlignment="Left" Margin="207,81,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1"/>
-        <Button x:Name="D_One" Background="Transparent" HorizontalAlignment="Left" Margin="287,320,0,0" VerticalAlignment="Top" Width="60" Height="60"/>
-        <Button x:Name="G_One" Background="Transparent" HorizontalAlignment="Left" Margin="287,555,0,0" VerticalAlignment="Top" Width="60" Height="60"/>
-        <Button x:Name="G_Four" Background="Transparent" HorizontalAlignment="Left" Margin="525,555,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.ColumnSpan="2"/>
+        
+        <Button x:Name="A_One" HorizontalAlignment="Left" Margin="287,81,0,0" VerticalAlignment="Top" Width="60" Height="60" BorderBrush="Transparent" Click="On_Click" />
+        <Button x:Name="A_Four" HorizontalAlignment="Left" Margin="525,81,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.ColumnSpan="2" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="A_Seven" HorizontalAlignment="Left" Margin="207,81,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="D_One" HorizontalAlignment="Left" Margin="287,320,0,0" VerticalAlignment="Top" Width="60" Height="60" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="G_One" HorizontalAlignment="Left" Margin="287,555,0,0" VerticalAlignment="Top" Width="60" Height="60" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="G_Four" HorizontalAlignment="Left" Margin="524,555,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.ColumnSpan="2" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="G_Seven" HorizontalAlignment="Left" Margin="207,555,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="D_Seven" HorizontalAlignment="Left" Margin="207,320,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="F_Four" HorizontalAlignment="Left" Margin="524,476,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.ColumnSpan="2" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="D_Two" HorizontalAlignment="Left" Margin="370,320,0,0" VerticalAlignment="Top" Width="60" Height="60" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="C_Four" HorizontalAlignment="Left" Margin="525,245,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.ColumnSpan="2" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="B_Four" HorizontalAlignment="Left" Margin="525,165,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.ColumnSpan="2" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="D_Six" HorizontalAlignment="Left" Margin="127,320,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="D_Five" HorizontalAlignment="Left" Margin="47,320,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="D_Three" HorizontalAlignment="Left" Margin="450,320,0,0" VerticalAlignment="Top" Width="60" Height="60" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="E_Four" HorizontalAlignment="Left" Margin="525,395,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.ColumnSpan="2" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="E_Three" HorizontalAlignment="Left" Margin="450,395,0,0" VerticalAlignment="Top" Width="60" Height="60" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="E_Five" HorizontalAlignment="Left" Margin="47,395,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="C_Five" HorizontalAlignment="Left" Margin="47,245,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="C_Three" HorizontalAlignment="Left" Margin="450,245,0,0" VerticalAlignment="Top" Width="60" Height="60" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="B_Two" HorizontalAlignment="Left" Margin="370,165,0,0" VerticalAlignment="Top" Width="60" Height="60" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="B_Six" HorizontalAlignment="Left" Margin="127,165,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="F_Six" HorizontalAlignment="Left" Margin="127,476,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
+        <Button x:Name="F_Two" HorizontalAlignment="Left" Margin="370,476,0,0" VerticalAlignment="Top" Width="60" Height="60" BorderBrush="Transparent" Click="On_Click"/>
 
 
 

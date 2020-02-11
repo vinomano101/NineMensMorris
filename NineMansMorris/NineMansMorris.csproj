@@ -110,5 +110,9 @@
   <ItemGroup>
     <Resource Include="img\GameUI.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\BlackChip.png" />
+    <Resource Include="img\WhiteChip.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

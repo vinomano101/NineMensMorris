@@ -23,6 +23,8 @@ namespace NineMansMorris
         public MainWindow()
         {
             InitializeComponent();
+
+           
         }
 
         private void Play_Button_Click(object sender, RoutedEventArgs e)
