@@ -1,0 +1,13 @@
+﻿<Application x:Class="NineMansMorris.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:NineMansMorris"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <BitmapImage x:Key="MainMenu" UriSource="img\MainMenu.png"/>
+            <BitmapImage x:Key="Board" UriSource="img\Board.png"/>
+            <BitmapImage x:Key="Background" UriSource="img\GameUI.png"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

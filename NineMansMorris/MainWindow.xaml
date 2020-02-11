@@ -1,0 +1,19 @@
+﻿<Window x:Class="NineMansMorris.MainWindow" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NineMansMorris"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1135">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="679" Margin="-42,0,-89,-10" VerticalAlignment="Top" Width="1252" Source="{StaticResource MainMenu}"/>
+        <Rectangle Fill="Transparent" HorizontalAlignment="Left" Height="661" Margin="0" Stroke="Black" VerticalAlignment="Top" Width="1119" StrokeThickness="14"/>
+        <Button x:Name="Play_Button" Background="Transparent" HorizontalAlignment="Left" Margin="422,295,0,0" VerticalAlignment="Top" Width="280" Height="88" RenderTransformOrigin="0.5,0.5" Click="Play_Button_Click">
+        </Button>
+        <Button x:Name="Help_Button" Background="Transparent" HorizontalAlignment="Left" Margin="422,397,0,0" VerticalAlignment="Top" Width="280" Height="88" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="Info_Button" Background="Transparent" HorizontalAlignment="Left" Margin="422,500,0,0" VerticalAlignment="Top" Width="280" Height="88" RenderTransformOrigin="0.5,0.5"/>
+        
+
+    </Grid>
+</Window>
