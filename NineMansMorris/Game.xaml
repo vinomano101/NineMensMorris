@@ -18,7 +18,7 @@
         </Grid.ColumnDefinitions>
         <Image x:Name="Board" HorizontalAlignment="Left" Height="730" Margin="10,0,-443,-36" VerticalAlignment="Top" Width="1545" Source="{StaticResource Background}" Grid.ColumnSpan="2"/>
         <Rectangle Fill="Transparent" HorizontalAlignment="Left" Height="689" Stroke="Black" StrokeThickness="14" VerticalAlignment="Top" Width="1106" Grid.ColumnSpan="2"/>
-        <Image HorizontalAlignment="Left" Height="700" Margin="201,0,-754,0" VerticalAlignment="Top" Width="1664" Source="{StaticResource Board}" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="700" Margin="201,0,-754,0" VerticalAlignment="Top" Width="1111" Source="{StaticResource Board}" Grid.ColumnSpan="2"/>
         <Rectangle Fill="#FF171212" HorizontalAlignment="Left" Height="88" Margin="436,188,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="5" RenderTransformOrigin="0.5,0.5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
@@ -126,7 +126,57 @@
         <Ellipse Fill="White" HorizontalAlignment="Left" Height="32" Margin="537,570,0,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top" Width="32" Grid.ColumnSpan="2"/>
         <Ellipse Fill="White" Height="32" Margin="301,570,223,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top"/>
         <Ellipse Fill="White" HorizontalAlignment="Left" Height="32" Margin="220,570,0,0" Stroke="Black" StrokeThickness="3" VerticalAlignment="Top" Width="32" Grid.Column="1"/>
-        
+
+        <Image x:Name="D1W" HorizontalAlignment="Left" Height="100" Margin="285,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource WhiteChip}"/>
+        <Image x:Name="G1W" HorizontalAlignment="Left" Height="100" Margin="285,555,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}"/>
+        <Image x:Name="G4W" HorizontalAlignment="Left" Height="100" Margin="525,555,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" Grid.ColumnSpan="2"/>
+        <Image x:Name="G7W" HorizontalAlignment="Left" Height="100" Margin="209,555,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" Grid.Column="1"/>
+        <Image x:Name="D7W" HorizontalAlignment="Left" Height="100" Margin="209,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" Grid.Column="1"/>
+        <Image x:Name="A7W" HorizontalAlignment="Left" Height="100" Margin="209,80,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" Grid.Column="1"/>
+        <Image x:Name="A4W" HorizontalAlignment="Left" Height="100" Margin="525,80,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45" Grid.ColumnSpan="2"/>
+        <Image x:Name="A1W" HorizontalAlignment="Left" Height="100" Margin="285,80,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="B2W" HorizontalAlignment="Left" Height="100" Margin="370,165,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="D3W" HorizontalAlignment="Left" Height="100" Margin="370,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="F2W" HorizontalAlignment="Left" Height="100" Margin="370,470,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="F4W" HorizontalAlignment="Left" Height="100" Margin="525,470,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45" Grid.ColumnSpan="2"/>
+        <Image x:Name="F6W" HorizontalAlignment="Left" Height="100" Margin="129,470,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+        <Image x:Name="D6W" HorizontalAlignment="Left" Height="100" Margin="129,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+        <Image x:Name="B6W" HorizontalAlignment="Left" Height="100" Margin="129,165,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+        <Image x:Name="B4W" HorizontalAlignment="Left" Height="100" Margin="525,165,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45" Grid.ColumnSpan="2"/>
+        <Image x:Name="C4W" HorizontalAlignment="Left" Height="100" Margin="525,250,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45" Grid.ColumnSpan="2"/>
+        <Image x:Name="E4W" HorizontalAlignment="Left" Height="100" Margin="525,390,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45" Grid.ColumnSpan="2"/>
+        <Image x:Name="D2W" HorizontalAlignment="Left" Height="100" Margin="450,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="D5W" HorizontalAlignment="Left" Height="100" Margin="49,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+        <Image x:Name="C5W" HorizontalAlignment="Left" Height="100" Margin="49,250,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+        <Image x:Name="C3W" HorizontalAlignment="Left" Height="100" Margin="450,250,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="E3W" HorizontalAlignment="Left" Height="100" Margin="450,390,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="E5W" HorizontalAlignment="Left" Height="100" Margin="49,390,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=WhiteChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+
+        <Image x:Name="D1B" HorizontalAlignment="Left" Height="100" Margin="285,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource BlackChip}"/>
+        <Image x:Name="G1B" HorizontalAlignment="Left" Height="100" Margin="285,555,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}"/>
+        <Image x:Name="G4B" HorizontalAlignment="Left" Height="100" Margin="525,555,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" Grid.ColumnSpan="2"/>
+        <Image x:Name="G7B" HorizontalAlignment="Right" Height="100" Margin="0,555,287,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" Grid.Column="1"/>
+        <Image x:Name="D7B" HorizontalAlignment="Left" Height="100" Margin="209,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" Grid.Column="1"/>
+        <Image x:Name="A7B" HorizontalAlignment="Left" Height="100" Margin="209,80,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" Grid.Column="1"/>
+        <Image x:Name="A4B" HorizontalAlignment="Left" Height="100" Margin="525,80,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45" Grid.ColumnSpan="2"/>
+        <Image x:Name="A1B" HorizontalAlignment="Left" Height="100" Margin="285,80,211,0" VerticalAlignment="Top" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="B2B" HorizontalAlignment="Left" Height="100" Margin="370,165,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="D3B" HorizontalAlignment="Left" Height="100" Margin="370,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="F2B" HorizontalAlignment="Left" Height="100" Margin="370,470,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="F4B" HorizontalAlignment="Left" Height="100" Margin="525,470,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45" Grid.ColumnSpan="2"/>
+        <Image x:Name="F6B" HorizontalAlignment="Left" Height="100" Margin="129,470,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+        <Image x:Name="D6B" HorizontalAlignment="Left" Height="100" Margin="129,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+        <Image x:Name="B6B" HorizontalAlignment="Left" Height="100" Margin="129,165,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+        <Image x:Name="B4B" HorizontalAlignment="Left" Height="100" Margin="525,165,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45" Grid.ColumnSpan="2"/>
+        <Image x:Name="C4B" HorizontalAlignment="Left" Height="100" Margin="525,250,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45" Grid.ColumnSpan="2"/>
+        <Image x:Name="E4B" HorizontalAlignment="Left" Height="100" Margin="525,390,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45" Grid.ColumnSpan="2"/>
+        <Image x:Name="D2B" HorizontalAlignment="Left" Height="100" Margin="450,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="D5B" HorizontalAlignment="Left" Height="100" Margin="49,320,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+        <Image x:Name="C5B" HorizontalAlignment="Left" Height="100" Margin="49,250,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+        <Image x:Name="C3B" HorizontalAlignment="Left" Height="100" Margin="450,250,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="E3B" HorizontalAlignment="Left" Height="100" Margin="450,390,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45"/>
+        <Image x:Name="E5B" HorizontalAlignment="Left" Height="100" Margin="49,390,0,0" VerticalAlignment="Top" Width="60" Source="{StaticResource ResourceKey=BlackChip}" RenderTransformOrigin="-0.941,0.45" Grid.Column="1"/>
+        <!--
         <Button x:Name="A_One" HorizontalAlignment="Left" Margin="287,81,0,0" VerticalAlignment="Top" Width="60" Height="60" BorderBrush="Transparent" Click="On_Click" />
         <Button x:Name="A_Four" HorizontalAlignment="Left" Margin="525,81,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.ColumnSpan="2" BorderBrush="Transparent" Click="On_Click"/>
         <Button x:Name="A_Seven" HorizontalAlignment="Left" Margin="207,81,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
@@ -151,8 +201,6 @@
         <Button x:Name="B_Six" HorizontalAlignment="Left" Margin="127,165,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
         <Button x:Name="F_Six" HorizontalAlignment="Left" Margin="127,476,0,0" VerticalAlignment="Top" Width="60" Height="60" Grid.Column="1" BorderBrush="Transparent" Click="On_Click"/>
         <Button x:Name="F_Two" HorizontalAlignment="Left" Margin="370,476,0,0" VerticalAlignment="Top" Width="60" Height="60" BorderBrush="Transparent" Click="On_Click"/>
-
-
-
+-->
     </Grid>
 </Window>
