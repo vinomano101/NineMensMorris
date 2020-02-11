@@ -61,33 +61,123 @@ namespace NineMansMorris
             
         }
 
-        private void On_Click(object sender, RoutedEventArgs e)
+        private void A_One_Click(object sender, RoutedEventArgs e)
         {
 
-            Button btn = sender as Button;
+        }
 
+        private void A_Four_Click(object sender, RoutedEventArgs e)
+        {
 
-           if (Player == 'W')
-           {
-                if (btn.Background == Brushes.Black || btn.Background == Brushes.Transparent)
-                {
+        }
 
+        private void A_Seven_Click(object sender, RoutedEventArgs e)
+        {
 
-                    btn.Background = Brushes.Transparent;
-                    Player = 'B';
-                    turns++;
-                }
-           }
-           else if (Player == 'B')
-           {
-                if (btn.Background == Brushes.White || btn.Background == Brushes.Transparent)
-                {
-                    btn.Background = Brushes.Black;
-                    Player = 'W';
-                    turns++;
-                }
-           }
+        }
 
+        private void B_Two_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void B_Four_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void B_Six_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void C_Three_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void C_Four_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void C_Five_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void D_One_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void D_Two_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void D_Three_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void D_Five_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void D_Six_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void D_Seven_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void E_Three_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void E_Four_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void E_Five_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void F_Two_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void F_Four_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void F_Six_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void G_One_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void G_Four_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void G_Seven_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }
